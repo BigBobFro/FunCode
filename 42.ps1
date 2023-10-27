@@ -2,6 +2,6 @@
 
 function Life{
   param($Love)
-  $outlook = MATH::ABS($B)
+  $outlook = MATH::ABS($B)   # AKA Be Positive
   
 }
