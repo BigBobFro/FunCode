@@ -1,11 +1,16 @@
-#begin script
+# The syntax is not meant to be perfect, this is a commentary on ServiceNow/Jira and the 
+#   implementation of Agile concepts in the business world.
+# 
+# Begin script
 
 $agile = @{
   1 "quick and well-coordinated in movement; lithe:"
   2 "active; lively:"
-  3 "marked by an ability to think quickly; mentally acute or aware:"}
+  3 "marked by an ability to think quickly; mentally acute or aware:"
+}
 
-$agile add-member "Jira"
+$agile.add( "Jira" )
+
 $serviceNOW = $agile
 
 $serviceNOW = Invoke-method "Production Operation" -on $ServiceNow
